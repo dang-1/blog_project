@@ -18,19 +18,24 @@
 
 <body>
 <!--上部-->
-<div id="header" >
-  <nav id="topnav" class="f_r">
-    <ul>
-      <a href="/">home</a>
+<div id="header">
+  <div id="topnav-left">
+    <a>logo</a>
+  </div>
+  <div id="topnav-right">
+    <a href="{% url 'root' %}login/login">login</a> <a href="">register</a>
+  </div>
+  <div id="head-band">
+      <a href="{% url 'root' %}">home</a></li>
       <a href="{% url 'root' %}#blog">root</a>
       <a href="{% url 'root' %}#blog" target="_blank">blog</a>
       <a href="{% url 'root' %}#aboutme">ablout me</a>
       <a href="{% url 'root' %}#concat">contact</a>
       <a href="{% url 'root' %}link/" target="_blank">link</a>
-    </ul>
-    <a href="">login</a><a href="">register</a>
-  </nav>
+  </div>
+
 </div>
+
 
 <!--中间部分-->
 <div id="middle">
@@ -43,21 +48,26 @@
       I am a Operations Engineer based in Chengdu, China. In my free time, I am excited to explore anything I am interested or related to my work. They can always help me to improve myself, open my eyes and get ready to the near future.
     </div>
     <div>
-      <p>I am study ELK now. I hope i can do my blog from scratch by myself!</p>
+      <p>I am study Django now. I hope i can do my blog from scratch by myself!</p>
       <p>keep moving...</p>
     </div>
   </div>
 
   <!--工作-->
   <div id="work">
-    WORK
-
-    <p>Shell Saltstack</p>
+    <p>WORK</p>
+    <a href="">Python</a>
+    <a href="">Zabbix</a>
+    <a href="">Mysql</a>
+    <a href="">Redis</a>
+    <a href="">Django</a>
   </div>
 
   <!--学习-->
   <div id="study">
     <p>study</p>
+    <a href="">Django</a>
+    <a href="">Python</a>
   </div>
 
 

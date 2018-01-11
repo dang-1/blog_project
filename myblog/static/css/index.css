@@ -1,0 +1,53 @@
+/* */
+
+/*all margin padding border*/
+body,#header,#topnav-right,#topnav-left,#header-top,ul,#header-middle,#middle,#footer,#head-band {
+	margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {background-color: grey;
+}
+
+
+
+#header {background-color: red;
+}
+
+#topnav-left {
+	height: 30px;
+	float: left;
+	clear: both;
+
+}
+#topnav-ritht {
+	float: right;
+	clear: both;
+}
+
+#head-band {
+	height: 50px;
+	float: right;
+
+}
+
+
+
+#middle {
+	clear: both;
+	
+	background-color: green;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    }
+
+
+
+
+#footer {
+	background-color: yellow;
+    margin: 0;
+    padding: 0;-
+    border: 0;
+}
