@@ -6,6 +6,7 @@ urlpatterns = [
     #basic
     #path('xxx/xxxx', views.xxxx),
     path('login', views.login),
+    path('register', views.register)
     #path converters
     #path('articles/<int:year>/<int:month>/', views.month_archive),
     #re
